@@ -10,6 +10,6 @@ steps:
   image: ubuntu
   commands:
   - echo Hello World!
-when:
-  event:
-    - push
+  when:
+    event:
+      - push
