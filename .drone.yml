@@ -1,6 +1,10 @@
 kind: pipeline
 name: default
 
+platform:
+  os: osx
+  arch: amd64
+
 steps:
 - name: Hello world
   image: ubuntu
