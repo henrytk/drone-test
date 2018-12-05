@@ -5,6 +5,10 @@ platform:
   os: osx
   arch: amd64
 
+trigger:
+  event:
+  - push
+
 steps:
 - name: Hello world
   image: ubuntu
